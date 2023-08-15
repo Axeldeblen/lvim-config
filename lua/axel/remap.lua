@@ -8,8 +8,8 @@ local builtin = require("telescope.builtin")
 -- Search maps
 keymap('n', '<leader>pf', builtin.find_files, {})
 keymap('n', '<C-p>', builtin.git_files, {})
-keymap('n', '<leader>gr', function ()
-  builtin.grep_string({ search = vim.fn.input("Grep > ")})
+keymap('n', '<leader>gr', function()
+  builtin.grep_string({ search = vim.fn.input("Grep > ") })
 end, default_opts)
 
 -- Comment selected lines
@@ -33,3 +33,6 @@ keymap("n", "<leader>xx", "<cmd>TroubleToggle<cr>", default_opts)
 
 -- New escape
 keymap("i", "jj", "<Esc>", default_opts)
+
+--Lazy git
+keymap("n", "<leader>lg", "<cmd>LazyGit<cr>", default_opts)
