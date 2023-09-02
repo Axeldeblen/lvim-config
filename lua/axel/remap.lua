@@ -36,3 +36,6 @@ keymap("i", "jj", "<Esc>", default_opts)
 
 --Lazy git
 keymap("n", "<leader>lg", "<cmd>LazyGit<cr>", default_opts)
+
+-- DiffView
+keymap("n", "<leader>gv", "<cmd>DiffviewOpen origin/master...HEAD<cr>", default_opts)

@@ -5,6 +5,9 @@ reload("axel.remap")
 lvim.colorscheme = "kanagawa"
 lvim.plugins = {
   { "rebelot/kanagawa.nvim" },
+  { "sindrets/diffview.nvim" },
+  { "tpope/repeat" },
+  { "tpope/unimpaired" },
   {
     "folke/todo-comments.nvim",
     event = "BufRead",
