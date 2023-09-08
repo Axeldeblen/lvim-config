@@ -6,8 +6,8 @@ lvim.colorscheme = "kanagawa"
 lvim.plugins = {
   { "rebelot/kanagawa.nvim" },
   { "sindrets/diffview.nvim" },
-  { "tpope/repeat" },
-  { "tpope/unimpaired" },
+  { url = "https://github.com/tpope/vim-repeat" },
+  { url = "https://github.com/tpope/vim-unimpaired" },
   {
     "folke/todo-comments.nvim",
     event = "BufRead",
