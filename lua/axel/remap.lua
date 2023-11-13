@@ -11,6 +11,7 @@ keymap('n', '<C-p>', builtin.git_files, {})
 keymap('n', '<leader>gr', function()
   builtin.grep_string({ search = vim.fn.input("Grep > ") })
 end, default_opts)
+keymap('n', '<C-f>', 've*', default_opts)
 
 -- Comment selected lines
 keymap('v', '<leader>/', '<Plug>NERDCommenterToggle', default_opts)
