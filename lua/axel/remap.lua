@@ -40,3 +40,10 @@ keymap("n", "<leader>lg", "<cmd>LazyGit<cr>", default_opts)
 
 -- DiffView
 keymap("n", "<leader>gv", "<cmd>DiffviewOpen origin/master...HEAD<cr>", default_opts)
+
+-- Buffer navigation
+keymap("n", "<tab>", ":bn <Enter>", default_opts)
+keymap("n", "<S-tab>", ":bp <Enter>", default_opts)
+
+-- Replace word with copy register
+keymap("n", "<leader>rw", "viwp", default_opts)
