@@ -1,6 +1,6 @@
 reload("axel.options")
 reload("axel.plugins/harpoon")
-reload("axel.plugins/whichkey")
+reload("reload.plugins/whichkey")
 reload("axel.remap")
 lvim.colorscheme = "kanagawa"
 lvim.plugins = {
